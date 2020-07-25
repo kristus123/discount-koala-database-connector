@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="discountkoala",
-    version="0.0.2",
+    version="0.0.3",
     author="todo",
     author_email="todo",
     description="todo",
