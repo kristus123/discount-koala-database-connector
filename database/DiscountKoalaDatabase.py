@@ -6,7 +6,7 @@ from sqlalchemy.orm import sessionmaker
 
 Base = declarative_base()
 
-def default_uri():
+def _default_uri():
 
 	db_username = os.environ.get("DB_USERNAME")
 	db_password = os.environ.get("DB_PASSWORD")
@@ -17,7 +17,7 @@ def default_uri():
 
 
 class DiscountKoalaDatabase:
-	def __init__(self, uri=default_uri()):
+	def __init__(self, uri=_default_uri()):
 		engine = create_engine(uri)
 
 		Base.metadata.create_all(bind=engine)
