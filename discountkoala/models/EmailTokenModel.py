@@ -1,7 +1,7 @@
 from sqlalchemy import Boolean, Column, ForeignKey, Integer, String
 from sqlalchemy.orm import relationship
 
-from ..DatabaseConnector import Base
+from ..database import Base
 
 class EmailTokenModel(Base):
 	__tablename__ = "email_token"

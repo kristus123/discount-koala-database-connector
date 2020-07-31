@@ -1,1 +1,1 @@
-from .DiscountKoalaDatabase import DiscountKoalaDatabase
+from .DiscountKoalaDatabase import DiscountKoalaDatabase, Base

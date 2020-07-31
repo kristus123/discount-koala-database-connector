@@ -1,8 +1,0 @@
-README.md
-setup.py
-discountkoala.egg-info/PKG-INFO
-discountkoala.egg-info/SOURCES.txt
-discountkoala.egg-info/dependency_links.txt
-discountkoala.egg-info/top_level.txt
-tests/__init__.py
-tests/test_context.py
