@@ -9,7 +9,7 @@ class EmailTokenModel(Base):
 	email_token_id = Column("email_token_id", Integer, primary_key=True)
 	user_id = Column("user_id", Integer)
 	
-	store = Column(String(40), nullable=False)
+	email_provider = Column(String(40), nullable=False)
 
 	access_token = Column(String(500), nullable=False)
 	refresh_token = Column(String(500), nullable=False)
