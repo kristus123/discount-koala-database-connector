@@ -15,5 +15,7 @@ class EmailTokenModel(Base):
 
 	access_token = Column(String(500), nullable=False)
 	refresh_token = Column(String(500), nullable=False)
+	
+	expired_at
 
 	last_scraped = Column(DateTime, default=LocDate.utcnow, nullable=False)
